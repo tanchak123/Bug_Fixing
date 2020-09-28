@@ -23,6 +23,8 @@ public class PolygonTest {
 
         //it lies exactly on a horizontal boundary segment and the space immediately adjacent to the point
         // in the increasing Y direction is inside the boundary.
+        
+        //next code result is true
         checkPoint = polygon.contains(-1, -1);
         System.out.println(checkPoint);
         checkPoint = polygon.contains(0, -1);
