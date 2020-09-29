@@ -20,6 +20,7 @@ class Printer {
     }
 
     private void printString(String s) {
+        // sout if name not set
         if (s == null) {
             System.out.println("Pls use setName");
             return;
