@@ -17,6 +17,7 @@ class Grid {
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + "|" + "");
             for (int j = 1; j <= 10; j++) {
+                // we need to install slot
                 array[i][j] = new Slot();
                 System.out.print(array[i][j].getStatus());
             }
