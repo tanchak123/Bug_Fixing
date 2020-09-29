@@ -1,6 +1,7 @@
 package com;
 
 
+// I think that for resolving task i should use setters and getters
 public class Cycling_problem_1 {
     public static void main(String[] args) {
         Person person = new Person("parent", 12);
