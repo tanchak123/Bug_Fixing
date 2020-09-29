@@ -5,6 +5,7 @@ public class NPE_3 {
     private static Integer integer;
 
     public static void main(String[] args) {
+        // sout if it's not installed
         if (integer == null) {
             System.out.println("Pls install 'integer' variable class NPE_3");
             return;
