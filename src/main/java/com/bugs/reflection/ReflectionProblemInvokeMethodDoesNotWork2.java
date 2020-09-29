@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 public class ReflectionProblemInvokeMethodDoesNotWork2 {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, NoSuchFieldException {
         Class userClass = User.class;
-        //I create constructor with zero methods :)
+        //I create constructor with zero variables :)
         User user = (User) userClass.newInstance();
         Field field = userClass.getDeclaredField("veryImportantField");
         field.setAccessible(true);
